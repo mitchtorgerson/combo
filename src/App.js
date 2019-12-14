@@ -1,15 +1,15 @@
 import React from 'react';
-import Blog from './components/Blog';
+import Combo from './components/Combo';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
         <header>
-            Show Blog Posts
+            Combo
         </header>
         <div className={'content'}>
-            <Blog />
+            <Combo />
         </div>
     </div>
   );

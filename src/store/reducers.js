@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import blog from './Blog/Reducer';
+import combo from './Combo/Reducer';
 
 const rootReducer = combineReducers({
-    blog,
+    combo,
 });
 
 export default rootReducer;
